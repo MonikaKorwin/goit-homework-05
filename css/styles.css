@@ -10,6 +10,7 @@
   --pressedstate-color: #404bbf;
   --subtle-text: #8E8F99;
   --green: #31D0AA;
+  --modal-background:#FCFCFC;
 
 }
 
@@ -743,8 +744,8 @@ img {
 
 .customer-icon {
   fill: currentColor;
-display: block;
-width: 168px;
+  display: block;
+  width: 168px;
   height: 88px;
 
 
@@ -856,3 +857,21 @@ width: 168px;
 
 }
 
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+
+.modal {
+  width: 408px;
+  min-height: 584px;
+border-radius: 4px;
+  background: var(--modal-background);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+      position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
