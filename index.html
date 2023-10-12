@@ -34,7 +34,11 @@
 
           <ul class="list menu-header">
             <li class="navigation-list">
-              <a href="./index.html" class="navigation-page link">Studio</a>
+              <a
+                href="./index.html"
+                class="navigation-page navigation-page-after link"
+                >Studio</a
+              >
             </li>
             <li class="navigation-list">
               <a href="./portfolio.html" class="navigation-page link"
@@ -494,15 +498,11 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <svg class="close-btn" data-modal-close>
-          <use
-            class="close-btn-cross"
-            href="./images/icons.svg#icon-close"
-            width="24px"
-            height="24px"
-            data-modal-close
-          ></use>
-        </svg>
+        <button class="close-btn" type="button" data-modal-close>
+          <svg width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
       </div>
     </div>
 
