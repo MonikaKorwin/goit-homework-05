@@ -890,6 +890,16 @@ border-radius: 4px;
 
 
 .close-btn{
+position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 50;
 
   
 }
