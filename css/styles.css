@@ -1015,9 +1015,4 @@ top: 0;
 }
 
 
-  .porftolio-block:focus { 
-    animation-name: img-description;
-    animation-duration: 3000ms;
-    animation-timing-function: linear;
-    animation-delay: 1000ms;
-  }
+ 
